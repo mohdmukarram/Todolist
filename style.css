@@ -58,7 +58,7 @@ body {
 
 }
 .paraStyle:hover {
-background-color: #3aaf96;
+background-color: #e7452f;
   color: white;
   transition-duration: 0.3s;
   border-radius: 20px;
@@ -74,7 +74,7 @@ background-color: #3aaf96;
 }
 
 .paraStyle-1:hover {
-    background-color: #e7452f;
+    background-color: #3aaf96;
   color: white;
   transition-duration: 0.3s;
   border-radius: 14px;
