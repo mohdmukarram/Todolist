@@ -1,12 +1,11 @@
-html{
+html {
     width: 50%;
     margin: 0 auto 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     /* background: rgb(148, 71, 71); */
-    /* border: 1px solid blue; */
 }
 
-body {
+.bodyclass{
     width: 50%;
     margin: 0 auto 0 auto;
     font-family: Arial, Helvetica, sans-serif;
@@ -28,6 +27,7 @@ body {
     cursor : cell;
     border-radius: 20px 0px 0px 20px;
     outline:none;
+    font-family: monospace;
 }
 
 #addIt {
@@ -47,22 +47,24 @@ body {
 }
 
 .to-dos {
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 .paraStyle {
     cursor : pointer;
     font-size: 25px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
+    font-family: monospace;
+    transition-duration: 0.3s;
 
 }
+
 .paraStyle:hover {
-background-color: #e7452f;
+background-color: #db5a6b;
   color: white;
   transition-duration: 0.3s;
   border-radius: 20px;
-
 }
 
 .paraStyle-1 {
@@ -71,10 +73,13 @@ background-color: #e7452f;
     font-weight: normal;
     text-decoration: line-through;
     text-align: center;
+    font-family: monospace;
+    transition-duration: 0.3s;
+
 }
 
 .paraStyle-1:hover {
-    background-color:#3aaf96;
+    background-color:#41d497;
   color: white;
   transition-duration: 0.3s;
   border-radius: 14px;
@@ -85,12 +90,59 @@ h1 {
     background-color: black;
     color: white;
     outline: none;
-    border-radius: 14px;
+    border-radius: 36px;
+    font-size: 35px;
     text-align: center;
+    margin-top: 35px; 
+    font-family: monospace;
+    font-weight: bold;
+    transition-duration: 3s;
 }
 
 h1:hover {
     background-color: black;
-    color: #FF7EB9;
+    color: rgb(49, 197, 216);
     transition-duration: 0.3s;
 }
+
+
+.topnav {
+    overflow:hidden;
+    background-color:#FF7EB9;
+    border-radius: 76px;
+    margin-top: 2px;
+    font-family: monospace;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align:center;
+    padding: 15px 26px;
+    text-decoration: none;
+    font-size: 17px;
+    transition-duration: 0.4s;
+
+  }
+  
+  .topnav a:hover {
+    /* background-color: #ddd; */
+    color: black;
+    font-family:monospace;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .topnav a.active {
+    background-color: #FF7EB9;
+    color:black;
+    /* padding: 17px; */
+  }
+
+  ul{
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 15px;
+  }
