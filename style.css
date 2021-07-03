@@ -1,0 +1,96 @@
+html{
+    width: 50%;
+    margin: 0 auto 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: rgb(148, 71, 71); */
+    /* border: 1px solid blue; */
+}
+
+body {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFF88;
+}
+
+.container{
+    width: 360px;
+    /* border: 1px solid black; */
+    /* border: 1px solid blue; */
+}
+
+#inputBox {
+    width:300px;
+    height: 43px;
+    /* border: 1px solid black; */
+    font-size: 25px;
+    vertical-align: middle;
+    cursor : cell;
+    border-radius: 20px 0px 0px 20px;
+    outline:none;
+}
+
+#addIt {
+    height: 50px;
+    width: 50px;
+    border: 3px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.btn:hover{
+    background-color: #c35cc7;
+  color: white;
+  transition-duration: 0.3s;
+
+}
+
+.to-dos {
+    margin-top: 25px;
+}
+
+.paraStyle {
+    cursor : pointer;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.paraStyle:hover {
+background-color: #3aaf96;
+  color: white;
+  transition-duration: 0.3s;
+  border-radius: 20px;
+
+}
+
+.paraStyle-1 {
+    cursor : pointer;
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: line-through;
+    text-align: center;
+}
+
+.paraStyle-1:hover {
+    background-color: #e7452f;
+  color: white;
+  transition-duration: 0.3s;
+  border-radius: 14px;
+}
+
+h1 {
+    /* text-decoration: underline; */
+    background-color: black;
+    color: white;
+    outline: none;
+    border-radius: 14px;
+    text-align: center;
+}
+
+h1:hover {
+    background-color: black;
+    color: #FF7EB9;
+    transition-duration: 0.3s;
+}
