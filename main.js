@@ -53,7 +53,7 @@ const put_into_local = function(todoitems,z) {     // putting into local storage
 window.addEventListener('DOMContentLoaded', () => {   // after dom loads this is called
     console.log('DOM fully parsed');               
     get_from_local();       //calling this function to populate todoitems from localstorage
-
+    
     for(let j = 0; j < todoitems.length; j++) {
         let gg = document.createElement('p');
         if(isCut[j] == 0) {
@@ -66,6 +66,7 @@ window.addEventListener('DOMContentLoaded', () => {   // after dom loads this is
         tableInfo.appendChild(gg);
         gg.addEventListener('click', function(){
             gg.classList.add('paraStyle-1');
+            cutInStorage(gg.innerText);
         })
     
         gg.addEventListener('dblclick', function(){
@@ -90,6 +91,7 @@ ifButton.addEventListener('click', function(){
     paragraph.addEventListener('click', function(){
         paragraph.classList.add('paraStyle-1');
         cutInStorage(paragraph.innerText);                                          // add cutting function here
+        console.log('ji');
     })
 
     paragraph.addEventListener('dblclick', function(){
