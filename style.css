@@ -91,7 +91,7 @@ h1 {
     color: white;
     outline: none;
     border-radius: 36px;
-    font-size: 35px;
+    font-size: 34px;
     text-align: center;
     margin-top: 35px; 
     font-family: monospace;
@@ -112,6 +112,7 @@ h1:hover {
     border-radius: 76px;
     margin-top: 2px;
     font-family: monospace;
+    border: 2px solid black;
   }
   
   .topnav a {
@@ -120,7 +121,7 @@ h1:hover {
     text-align:center;
     padding: 15px 26px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16-px;
     transition-duration: 0.4s;
 
   }
