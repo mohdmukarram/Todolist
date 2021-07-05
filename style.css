@@ -149,3 +149,13 @@ h1:hover {
   font-weight: bold;
   font-size: 15px;
   }
+
+  .lia:hover{
+    color: rgb(0, 208, 223);
+    transition-duration: 0.5s;
+  }
+
+  .lib:hover{
+    color: rgb(151, 72, 255) ;
+    
+  }
